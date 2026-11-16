@@ -1,0 +1,42 @@
+
+# =========================
+# React / Node.js
+# =========================
+node_modules/
+dist/
+.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# =========================
+# ASP.NET Core / .NET
+# =========================
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Local application settings
+appsettings.Development.json
+secrets.json
+
+# =========================
+# IDE / Operating System
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Private Undertone content
+# =========================
+private-writing/
+recordings/
+**/private-writing/
+**/recordings/
